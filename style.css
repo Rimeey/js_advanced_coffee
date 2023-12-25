@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.menu_item {
+    background-color: rgb(243, 242, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 2px;
+    padding-left: 16px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu_item:hover {
+    background-color: rgb(87, 41, 8);
+    color: #fff;
+}
+
+.wrapper_cup {
+    display: flex;
+}
+
+img {
+    z-index: 1;
+}
+
+.coffee {
+    z-index: 0;
+    position: relative;
+    width: 333px;
+    left: -520px;
+    bottom: 170px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.espresso {
+    background-color: #7b3f00;
+}
+.water {
+    background-color: #abcdef;
+}
+.milk {
+    background-color: #efe3e3;
+}
+.whippedmilk {
+    background-color: #f3dfc8;
+}
+.whippedcream {
+    background-color: #ecddbe;
+}

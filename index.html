@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="menu_item">Еспрессо</div>
+            <div class="menu_item">Доппіо</div>
+            <div class="menu_item">Тріппло</div>
+            <div class="menu_item">Амeрикано</div>
+            <div class="menu_item">Флет Вайт</div>
+            <div class="menu_item">Капучіно</div>
+            <div class="menu_item">Мокіато</div>
+            <div class="menu_item">Лате</div>
+            <div class="menu_item">Кон Панна</div>
+        </div>
+        <div class="wrapper_cup">
+            <img src="./pic.png" alt="">
+            <div class="coffee"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+    <script>
+        new Coffee('.wrapper', '.menu .menu_item', '.coffee').init()
+    </script>
+</body>
+</html>
